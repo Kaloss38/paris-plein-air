@@ -1,7 +1,3 @@
-body {
-  font: 100% Helvetica, sans-serif;
-}
-
 header {
   position: absolute;
   width: 100%;
@@ -46,6 +42,10 @@ header img {
 #news-section h1 {
   padding-bottom: 2vh;
   text-align: center;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
