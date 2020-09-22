@@ -1,17 +1,20 @@
 $(document).ready(function(){
-    //CAROUSEL
+    //CAROUSEL HOME
     $('.carousel.carousel-slider').carousel({
         fullWidth: true,
         indicators: true,
-        duration: 200
+        duration: 300
     });
 
-    autoplay();
-
-    function autoplay() {
+    setInterval(function() {
         $('.carousel').carousel('next');
-        setTimeout(autoplay, 4500);
-    }
+    }, 5000);
+
+    //CAROUSEL HOME
+    $('#carousel-movie').carousel({
+        
+    });
+
     //Mobile Colapse Nav
     $('.sidenav').sidenav();
 });

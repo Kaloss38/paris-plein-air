@@ -1,6 +1,5 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: #333;
 }
 
 header {
@@ -18,7 +17,34 @@ header img {
   width: 80px;
 }
 
+#presentation-section {
+  padding: 2vh;
+  padding-bottom: 10vh;
+}
 #presentation-section h1 {
+  padding-bottom: 2vh;
+  text-align: center;
+}
+#presentation-section p {
+  text-align: justify;
+}
+
+#movies-section {
+  background-color: #DB5A21;
+  padding: 2vh;
+  padding-bottom: 10vh;
+}
+#movies-section h1 {
+  color: white;
+  text-align: center;
+}
+
+#news-section {
+  padding: 2vh;
+  padding-bottom: 10vh;
+}
+#news-section h1 {
+  padding-bottom: 2vh;
   text-align: center;
 }
 
