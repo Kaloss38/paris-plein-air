@@ -7,3 +7,27 @@ body {
   color: $primary-color;
 }
 
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+
+  nav{
+    background-color: transparent;
+    ul{
+      text-align: center !important;
+    }
+  }
+
+  img {
+    width: 80px;
+  }
+}
+
+#presentation-section{
+  h1{
+    text-align: center;
+  }
+}
+
+

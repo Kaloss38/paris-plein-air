@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="title">
-        <title></title>
+        <title>Paris Plein Air 2020</title>
         <meta name="description" content="">
         <meta name="keywords" content="mot-clé 1, mot-clé 2, mot-clé 3"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,15 +16,65 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
+        <header>
+            <nav class="z-depth-0">
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo"><img src="assets/images/logo-site-blanc.png"></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="badges.html">A propos</a></li>
+                    <li><a href="collapsible.html">Actualités</a></li>
+                    <li><a href="collapsible.html">Programmation</a></li>
+                    <li><a href="collapsible.html">Réservation</a></li>
+                    <li><a href="collapsible.html">Nous contacter</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="badges.html">A propos</a></li>
+                <li><a href="collapsible.html">Actualités</a></li>
+                <li><a href="collapsible.html">Programmation</a></li>
+                <li><a href="collapsible.html">Réservation</a></li>
+                <li><a href="collapsible.html">Nous contacter</a></li>
+              </ul>
+        </header>
         <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+            <div class="carousel-fixed-item center">
+                <a class="btn waves-effect white grey-text darken-text-2">Réserver</a>
+            </div>
+            <a class="carousel-item" href="#one!"><img src="assets/images/slider-1.png"></a>
             <a class="carousel-item" href="#two!"><img src="assets/images/slide-2.jpg"></a>
         </div>
-        <header>
-            header
-        </header>
-        <section>
-            section 1
+        <section id="presentation-section">
+            <h1>Paris Plein Air</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col s6" style="vertical-align:middle">
+                        <img src="assets/images/img-presentation.jpg" style="width:100%" alt="">
+                    </div>
+                    <div class="col s6" style="vertical-align:middle"">
+                        <h2>Le festival</h2>
+                        <p>C'est parti ! le festival Paris Plein Air démarre sa première édition le Mercredi 5 Août jusqu'au Samedi 8 Août, tous le monde est le bienvenue et en plus vous savez quoi ? c'est totalement GRATUIT !
+                            <br>Au programme, la fine fleur des films , envie de découvrir des films 
+                            afin de briller en société ou bien alors tous simplement de passer un bon moment avec la famille ou les amis ?
+                            <br>N'attendez plus et réservez dès maintenant, il y a de la place mais venez nous confirmez que vous venez :)
+                        </p>
+                        <a class="waves-effect waves-light btn">Réserver (Gratuit)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="movies-section">
+            <div class="container">
+                films
+            </div>
+        </section>
+        <section id="news-section">
+            <div class="container">
+                Actualités
+            </div>
         </section>
         <footer>
             footer

@@ -3,4 +3,23 @@ body {
   color: #333;
 }
 
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+header nav {
+  background-color: transparent;
+}
+header nav ul {
+  text-align: center !important;
+}
+header img {
+  width: 80px;
+}
+
+#presentation-section h1 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
