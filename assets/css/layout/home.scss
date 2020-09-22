@@ -1,0 +1,47 @@
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  
+    nav{
+      background-color: transparent;
+      ul{
+        text-align: center !important;
+      }
+    }
+  
+    img {
+      width: 80px;
+    }
+  }
+  
+  #presentation-section{
+    padding: 2vh;
+    padding-bottom: 10vh;
+    h1{
+      padding-bottom: 2vh;
+      text-align: center;
+    }
+    p{
+      text-align: justify;
+    }
+  }
+  
+  #movies-section{
+    background-color: $primary-color;
+    padding: 2vh;
+    padding-bottom: 10vh;
+    h1{
+      color: white;
+      text-align: center;
+    }
+  }
+  
+  #news-section{
+    padding: 2vh;
+    padding-bottom: 10vh;
+    h1{
+      padding-bottom: 2vh;
+      text-align: center;
+    }
+  }
