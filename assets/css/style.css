@@ -34,6 +34,12 @@ header img {
   color: white;
   text-align: center;
 }
+#movies-section #carousel-movie {
+  height: 380px;
+}
+#movies-section #carousel-movie .carousel-item {
+  top: -70px;
+}
 
 #news-section {
   padding: 2vh;

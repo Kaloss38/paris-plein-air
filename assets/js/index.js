@@ -11,9 +11,7 @@ $(document).ready(function(){
     }, 5000);
 
     //CAROUSEL HOME
-    $('#carousel-movie').carousel({
-        
-    });
+    $('#carousel-movie').carousel();
 
     //Mobile Colapse Nav
     $('.sidenav').sidenav();
