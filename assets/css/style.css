@@ -37,6 +37,9 @@ header img {
   padding-bottom: 2vh;
   text-align: center;
 }
+#presentation-section h2 {
+  margin: 0;
+}
 #presentation-section p {
   text-align: justify;
 }
