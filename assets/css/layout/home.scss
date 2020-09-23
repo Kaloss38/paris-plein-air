@@ -2,7 +2,7 @@ header {
     position: absolute;
     width: 100%;
     z-index: 10;
-  
+    font-family: "Ms-Bold" !important;
     nav{
       background-color: transparent;
       ul{
@@ -44,6 +44,12 @@ header {
             top: -70px;
         }
     }
+    .card{
+      .card-content{
+        text-align: center;
+      }
+      
+    }
   }
   
   #news-section{
@@ -51,6 +57,9 @@ header {
     padding-bottom: 10vh;
     h1{
       padding-bottom: 2vh;
+      text-align: center;
+    }
+    .button-row{
       text-align: center;
     }
   }

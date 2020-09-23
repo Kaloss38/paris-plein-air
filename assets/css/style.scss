@@ -27,3 +27,26 @@ a{
   font-family: "Ms-Bold"
 }
 
+.sidenav-overlay{
+  z-index: 0;
+}
+
+footer{
+  border-top: 4px solid black;
+  #footer-links{
+    padding: 2vh;
+    text-align: center;
+    display: inline;
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      font-family: "Ms-Bold";
+    }
+  }
+  #copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2vh;
+  }
+}
