@@ -10,7 +10,7 @@ $(document).ready(function(){
         $('.carousel').carousel('next');
     }, 5000);
 
-    //CAROUSEL HOME
+    //CAROUSEL MOVIE
     $('#carousel-movie').carousel();
 
     //Mobile Colapse Nav

@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Ms-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Ms-Light";
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Ms-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Ms-ExtraBold";
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
 header {
   position: absolute;
   width: 100%;
@@ -52,6 +68,27 @@ header img {
 
 body {
   font: 100% Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Ms-ExtraBold";
+}
+
+h2 {
+  font-family: "Ms-Bold";
+}
+
+p {
+  font-family: "Ms-Light";
+}
+
+a {
+  font-family: "Ms-Regular";
+}
+
+.btn {
+  background-color: #DB5A21;
+  font-family: "Ms-Bold";
 }
 
 /*# sourceMappingURL=style.css.map */

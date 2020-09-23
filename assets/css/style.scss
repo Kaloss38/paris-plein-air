@@ -1,3 +1,4 @@
+@import './fonts.scss';
 @import './main.scss';
 @import './layout/home.scss';
 
@@ -5,5 +6,24 @@ body {
   font: 100% $font-stack;
 }
 
+h1{
+  font-family: "Ms-ExtraBold";
+}
 
+h2{
+  font-family: "Ms-Bold";
+}
+
+p{
+  font-family: "Ms-Light";
+}
+
+a{
+  font-family: "Ms-Regular";
+}
+
+.btn{
+  background-color: $primary-color;
+  font-family: "Ms-Bold"
+}
 
