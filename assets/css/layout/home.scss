@@ -16,16 +16,20 @@ header {
   }
   
   #presentation-section{
+    background-color: $secondary-color;
     padding: 2vh;
     padding-bottom: 10vh;
     h1{
+      color: white;
       padding-bottom: 2vh;
       text-align: center;
     }
     h2{
+      color: white;
       margin: 0;
     }
     p{
+      color: white;
       text-align: justify;
     }
   }
@@ -53,9 +57,11 @@ header {
   }
   
   #news-section{
+    background-color: $secondary-color;
     padding: 2vh;
     padding-bottom: 10vh;
     h1{
+      color: white;
       padding-bottom: 2vh;
       text-align: center;
     }
@@ -63,3 +69,5 @@ header {
       text-align: center;
     }
   }
+
+ 

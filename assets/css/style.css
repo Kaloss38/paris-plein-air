@@ -31,17 +31,21 @@ header img {
 }
 
 #presentation-section {
+  background-color: #e0c39b;
   padding: 2vh;
   padding-bottom: 10vh;
 }
 #presentation-section h1 {
+  color: white;
   padding-bottom: 2vh;
   text-align: center;
 }
 #presentation-section h2 {
+  color: white;
   margin: 0;
 }
 #presentation-section p {
+  color: white;
   text-align: justify;
 }
 
@@ -65,10 +69,12 @@ header img {
 }
 
 #news-section {
+  background-color: #e0c39b;
   padding: 2vh;
   padding-bottom: 10vh;
 }
 #news-section h1 {
+  color: white;
   padding-bottom: 2vh;
   text-align: center;
 }
@@ -106,7 +112,7 @@ a {
 }
 
 footer {
-  border-top: 4px solid black;
+  border-top: 4px solid #DB5A21;
 }
 footer #footer-links {
   padding: 2vh;
@@ -123,6 +129,16 @@ footer #copyright {
   background-color: black;
   color: white;
   padding: 2vh;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 600px) {
+  #presentation-section p {
+    color: red;
+  }
+  #presentation-section .valign-wrapper {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

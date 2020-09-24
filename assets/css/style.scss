@@ -32,7 +32,7 @@ a{
 }
 
 footer{
-  border-top: 4px solid black;
+  border-top: 4px solid $primary-color;
   #footer-links{
     padding: 2vh;
     text-align: center;
@@ -50,3 +50,19 @@ footer{
     padding: 2vh;
   }
 }
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 600px)
+{
+  #presentation-section{
+    p {
+      color: red
+    }
+    .valign-wrapper{
+      display: block;
+    }
+  }
+  
+}
+
