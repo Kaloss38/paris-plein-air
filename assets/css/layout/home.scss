@@ -19,6 +19,12 @@ header {
     background-color: $secondary-color;
     padding: 2vh;
     padding-bottom: 10vh;
+    .valign-wrapper{
+      padding-top: 13px;
+      padding-bottom: 25px;
+      border-top: 8px solid #DB5A21;
+      border-bottom: 8px solid #DB5A21;
+    }
     h1{
       color: white;
       padding-bottom: 2vh;
