@@ -92,6 +92,9 @@ header img {
   overflow: hidden;
   position: relative;
 }
+#news-section .card-action {
+  text-align: center;
+}
 #news-section h1 {
   color: white;
   padding-bottom: 2vh;
@@ -146,6 +149,24 @@ a {
   z-index: 0;
 }
 
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+header nav {
+  background-color: transparent;
+}
+header nav ul {
+  text-align: center !important;
+}
+header nav ul a {
+  font-family: "Ms-Bold";
+}
+header img {
+  width: 80px;
+}
+
 footer {
   border-top: 4px solid #DB5A21;
   text-align: center;
@@ -167,6 +188,10 @@ footer #copyright {
 }
 
 @media all and (max-width: 600px) {
+  header {
+    position: relative;
+  }
+
   h1 {
     font-size: 2.2rem;
   }
