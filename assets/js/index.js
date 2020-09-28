@@ -7,8 +7,8 @@ $(document).ready(function(){
     });
 
     setInterval(function() {
-        $('.carousel').carousel('next');
-    }, 5000);
+        $('.carousel.carousel-slider').carousel('next');
+    }, 10000);
 
     //CAROUSEL MOVIE
     $('#carousel-movie').carousel();

@@ -33,15 +33,15 @@ a{
 
 footer{
   border-top: 4px solid $primary-color;
-  #footer-links{
-    padding: 2vh;
-    text-align: center;
+  text-align: center;
+  li {
     display: inline;
-    a {
-      text-decoration: none;
-      color: $primary-color;
-      font-family: "Ms-Bold";
-    }
+  }  
+  a {
+    margin-right: 2em;
+    text-decoration: none;
+    color: $primary-color;
+    font-family: "Ms-Bold";
   }
   #copyright{
     text-align: center;
@@ -51,18 +51,18 @@ footer{
   }
 }
 
-/* MEDIA QUERIES */
-
-@media all and (max-width: 600px)
-{
-  #presentation-section{
-    p {
-      color: red
-    }
-    .valign-wrapper{
+@media all and (max-width: 600px){
+  h1{
+    font-size: 2.2rem;
+  }
+  footer{
+    li{
+      margin-right: 0;
       display: block;
+      margin-top: 1em;
     }
   }
-  
 }
+
+
 

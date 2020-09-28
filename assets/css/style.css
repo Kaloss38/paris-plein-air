@@ -65,10 +65,18 @@ header img {
   text-align: center;
 }
 #movies-section #carousel-movie {
+  border-top: 8px solid white;
   height: 450px;
 }
 #movies-section #carousel-movie .carousel-item {
   top: -70px;
+}
+#movies-section #carousel-movie .card-title {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#movies-section #carousel-movie .card-reveal .card-title {
+  background-color: white;
 }
 #movies-section .card .card-content {
   text-align: center;
@@ -79,6 +87,11 @@ header img {
   padding: 2vh;
   padding-bottom: 10vh;
 }
+#news-section .card-image {
+  height: 15em;
+  overflow: hidden;
+  position: relative;
+}
 #news-section h1 {
   color: white;
   padding-bottom: 2vh;
@@ -88,6 +101,22 @@ header img {
   text-align: center;
 }
 
+/* MEDIA QUERIES */
+@media all and (max-width: 600px) {
+  header {
+    width: 100%;
+    background-color: #DB5A21;
+    position: relative;
+  }
+
+  #presentation-section .valign-wrapper {
+    display: block;
+  }
+
+  #news-section .card-image {
+    height: auto;
+  }
+}
 body {
   font: 100% Helvetica, sans-serif;
 }
@@ -119,13 +148,13 @@ a {
 
 footer {
   border-top: 4px solid #DB5A21;
-}
-footer #footer-links {
-  padding: 2vh;
   text-align: center;
+}
+footer li {
   display: inline;
 }
-footer #footer-links a {
+footer a {
+  margin-right: 2em;
   text-decoration: none;
   color: #DB5A21;
   font-family: "Ms-Bold";
@@ -137,13 +166,15 @@ footer #copyright {
   padding: 2vh;
 }
 
-/* MEDIA QUERIES */
 @media all and (max-width: 600px) {
-  #presentation-section p {
-    color: red;
+  h1 {
+    font-size: 2.2rem;
   }
-  #presentation-section .valign-wrapper {
+
+  footer li {
+    margin-right: 0;
     display: block;
+    margin-top: 1em;
   }
 }
 
