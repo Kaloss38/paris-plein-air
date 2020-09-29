@@ -1,6 +1,7 @@
 @import './fonts.scss';
 @import './main.scss';
 @import './layout/home.scss';
+@import './layout/about.scss';
 
 body {
   font: 100% $font-stack;
@@ -50,6 +51,12 @@ header {
   img {
     width: 80px;
   }
+}
+
+#orange-header{
+  background-color: #DB5A21;
+  position: relative;
+  width: 100%;
 }
 
 footer{

@@ -179,6 +179,12 @@ header img {
   width: 80px;
 }
 
+#orange-header {
+  background-color: #DB5A21;
+  position: relative;
+  width: 100%;
+}
+
 footer {
   border-top: 4px solid #DB5A21;
   text-align: center;
