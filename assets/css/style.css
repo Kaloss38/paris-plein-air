@@ -54,11 +54,17 @@ header img {
   color: white;
   text-align: justify;
 }
+#presentation-section .btn:hover {
+  background-color: #ac4a1f;
+}
 
 #movies-section {
   background-color: #DB5A21;
   padding: 2vh;
   padding-bottom: 10vh;
+}
+#movies-section .btn:hover {
+  background-color: #ac4a1f;
 }
 #movies-section h1 {
   color: white;
@@ -67,6 +73,9 @@ header img {
 #movies-section #carousel-movie {
   border-top: 8px solid white;
   height: 450px;
+}
+#movies-section #carousel-movie .card-image .card-title {
+  font-size: 20px;
 }
 #movies-section #carousel-movie .carousel-item {
   top: -70px;
@@ -102,6 +111,9 @@ header img {
 }
 #news-section .button-row {
   text-align: center;
+}
+#news-section .btn:hover {
+  background-color: #ac4a1f;
 }
 
 /* MEDIA QUERIES */

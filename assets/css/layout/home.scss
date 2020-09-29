@@ -38,12 +38,18 @@ header {
       color: white;
       text-align: justify;
     }
+    .btn:hover{
+      background-color: #ac4a1f;
+    }
   }
   
   #movies-section{
     background-color: $primary-color;
     padding: 2vh;
     padding-bottom: 10vh;
+    .btn:hover{
+      background-color: #ac4a1f;
+    }
     h1{
       color: white;
       text-align: center;
@@ -51,6 +57,11 @@ header {
     #carousel-movie{
       border-top: 8px solid white;
       height: 450px;
+      .card-image{
+        .card-title{
+          font-size: 20px;
+        }
+      }
       .carousel-item{
         top: -70px;
       }
@@ -92,6 +103,9 @@ header {
     }
     .button-row{
       text-align: center;
+    }
+    .btn:hover{
+      background-color: #ac4a1f;
     }
   }
 
