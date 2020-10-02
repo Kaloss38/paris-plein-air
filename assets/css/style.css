@@ -132,6 +132,13 @@ header img {
     height: auto;
   }
 }
+#about-section h1 {
+  text-align: center;
+}
+#about-section img {
+  width: 100%;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
 }

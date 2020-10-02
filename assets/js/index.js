@@ -15,6 +15,8 @@ $(document).ready(function(){
 
     //Mobile Colapse Nav
     $('.sidenav').sidenav();
+
+    $('.parallax').parallax();
 });
   
  
