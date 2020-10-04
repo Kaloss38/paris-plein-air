@@ -195,6 +195,10 @@ body {
     display: block;
   }
 }
+.pagination li.active {
+  background-color: #DB5A21;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
 }
