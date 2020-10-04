@@ -203,6 +203,7 @@ body {
   height: 260px;
   position: relative;
   height: 50em;
+  border-bottom: 8px solid #DB5A21;
 }
 #img-fixed-article img {
   max-width: 100%;
@@ -305,7 +306,7 @@ footer li {
 footer a {
   margin-right: 2em;
   text-decoration: none;
-  color: #DB5A21;
+  color: black;
   font-family: "Ms-Bold";
 }
 footer #copyright {
