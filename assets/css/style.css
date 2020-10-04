@@ -199,6 +199,37 @@ body {
   background-color: #DB5A21;
 }
 
+#img-fixed-article {
+  height: 260px;
+}
+#img-fixed-article img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+#article-section {
+  background-color: #e0c39b;
+  padding: 2vh;
+  padding-bottom: 10vh;
+}
+#article-section h1 {
+  color: white;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+#article-section img {
+  width: 100%;
+}
+#article-section p {
+  text-align: justify;
+}
+
+@media all and (max-width: 600px) {
+  #img-fixed-article {
+    height: auto;
+  }
+}
 body {
   font: 100% Helvetica, sans-serif;
 }
