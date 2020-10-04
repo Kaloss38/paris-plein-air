@@ -201,6 +201,8 @@ body {
 
 #img-fixed-article {
   height: 260px;
+  position: relative;
+  height: 50em;
 }
 #img-fixed-article img {
   max-width: 100%;
