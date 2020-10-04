@@ -1,6 +1,30 @@
+body{
+    font:none;
+}
 #about-section{
+    padding: 5em;
+    color: white;
+    background-color: $secondary-color;
+    figure{
+        padding: 0;
+    }
+    .valign-wrapper{
+        border-top: 8px solid #DB5A21;
+        border-bottom: 8px solid #DB5A21;
+        padding-bottom: 2em;
+        padding-top: 1.5em;
+    }
     h1{
+        margin: 0;
         text-align: center;
+        padding-bottom: 0.5em;
+    }
+    h2{
+        margin-top:0;
+        font-size: 2.56em;
+    }
+    p{
+        text-align: justify;
     }
     img{
         width: 100%;
@@ -8,5 +32,35 @@
 }
 
 #staff-section{
-    
+    padding: 5em;
+    color: white;
+    background-color: $primary-color;
+    h1{
+        margin: 0;
+        text-align: center;
+        padding-bottom: 0.5em;
+    }
+    .single-staff-item{
+        padding: 1em;
+        text-align: center;
+        img{
+            border-radius: 50%;
+            border: 10px solid $secondary-color;    
+        }
+        
+    }
 }
+
+  /* MEDIA QUERIES */
+
+  @media all and (max-width: 600px)
+  {
+    #about-section{
+        h2{
+            font-size: 1.90em;
+        }
+    }
+    .valign-wrapper{
+        display: block;
+    }
+  }
