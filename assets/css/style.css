@@ -213,15 +213,25 @@ body {
   padding: 2vh;
   padding-bottom: 10vh;
 }
+#article-section .row {
+  border-top: 8px solid #DB5A21;
+  border-bottom: 8px solid #DB5A21;
+  text-align: center;
+}
 #article-section h1 {
   color: white;
   padding-bottom: 2vh;
   text-align: center;
 }
 #article-section img {
-  width: 100%;
+  width: 80%;
+}
+#article-section a {
+  display: flex;
 }
 #article-section p {
+  font-family: "Ms-Regular";
+  color: white;
   text-align: justify;
 }
 

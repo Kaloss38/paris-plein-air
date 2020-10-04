@@ -11,15 +11,25 @@
     background-color: $secondary-color;
     padding: 2vh;
     padding-bottom: 10vh;
+    .row{
+        border-top: 8px solid #DB5A21;
+        border-bottom: 8px solid #DB5A21;
+        text-align: center;
+    }
     h1{
         color: white;
         padding-bottom: 2vh;
         text-align: center;
     }
     img{
-        width: 100%;
+        width: 80%;
+    }
+    a{
+        display: flex;
     }
     p{
+        font-family:"Ms-Regular";
+        color: white;
         text-align: justify;;
     }
 }
