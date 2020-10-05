@@ -199,6 +199,12 @@ body {
   background-color: #DB5A21;
 }
 
+#container-news {
+  padding: 1em;
+  border-bottom: 8px solid #DB5A21;
+  border-top: 8px solid #DB5A21;
+}
+
 #img-fixed-article {
   height: 260px;
   position: relative;
