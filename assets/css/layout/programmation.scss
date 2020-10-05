@@ -18,13 +18,11 @@
         text-align: center;
     }
     #prog-container{
-        display: flex;
         padding-bottom: 1em;
         padding-top: 2em;
         border-top: 8px solid #DB5A21;
         border-bottom: 8px solid #DB5A21;
         .card{
-            margin-left:5em;
             padding: 0;
             text-align: center;
         }
@@ -48,9 +46,6 @@
         img{
             height: 20em;
         }
-        .card{
-            margin-left: 5em !important;
-        }
     }
 }
 
@@ -58,9 +53,6 @@
     #prog-container{
         img{
             height: 20em;
-        }
-        .card{
-            margin-left: 0 !important;
         }
     }
 }

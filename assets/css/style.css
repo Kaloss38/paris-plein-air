@@ -226,14 +226,12 @@ body {
   text-align: center;
 }
 #prog-first #prog-container {
-  display: flex;
   padding-bottom: 1em;
   padding-top: 2em;
   border-top: 8px solid #DB5A21;
   border-bottom: 8px solid #DB5A21;
 }
 #prog-first #prog-container .card {
-  margin-left: 5em;
   padding: 0;
   text-align: center;
 }
@@ -255,16 +253,10 @@ body {
   #prog-container img {
     height: 20em;
   }
-  #prog-container .card {
-    margin-left: 5em !important;
-  }
 }
 @media all and (max-width: 1200px) {
   #prog-container img {
     height: 20em;
-  }
-  #prog-container .card {
-    margin-left: 0 !important;
   }
 }
 @media all and (max-width: 1024px) {
