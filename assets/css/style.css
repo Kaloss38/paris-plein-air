@@ -278,12 +278,19 @@ body {
   #prog-container {
     display: block !important;
   }
+  #prog-container h1 {
+    font-size: 1em;
+  }
   #prog-container img {
     width: 100%;
     height: auto;
   }
   #prog-container .card {
     margin-left: 0 !important;
+  }
+
+  #prog-first h2 {
+    font-size: 2em;
   }
 }
 #img-fixed-article {

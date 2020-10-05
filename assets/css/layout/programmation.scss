@@ -83,12 +83,21 @@
 @media all and (max-width: 600px){
     #prog-container{
         display: block !important;
+        h1{
+            font-size: 1em;
+        }
+        
         img{
             width: 100%;
             height: auto;
         }
         .card{
             margin-left: 0 !important;
+        }
+    }
+    #prog-first{
+        h2{
+            font-size: 2em;
         }
     }
 }
