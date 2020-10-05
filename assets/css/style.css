@@ -216,8 +216,13 @@ body {
   text-align: center;
 }
 #prog-first h3 {
+  text-align: center;
   font-size: 1em;
   font-family: "Ms-ExtraBold";
+}
+#prog-first p {
+  font-size: 1.2em;
+  text-align: center;
 }
 #prog-first img {
   height: 25em;
