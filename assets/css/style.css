@@ -223,6 +223,13 @@ body {
   background-color: #e0c39b;
   padding-bottom: 2em;
 }
+#prog-first :first-child h1 {
+  font-size: 7em;
+  padding-top: 0.5em;
+}
+#prog-first :first-child h2 {
+  padding-top: 1.5em;
+}
 #prog-first h1 {
   color: white;
   padding-top: 1em;
@@ -284,6 +291,10 @@ body {
   }
 }
 @media all and (max-width: 992px) {
+  #prog-first :first-child {
+    font-size: 5em;
+  }
+
   #prog-container img {
     height: 18em;
   }
@@ -300,6 +311,9 @@ body {
     margin-left: 0 !important;
   }
 
+  #prog-first :first-child h1 {
+    font-size: 2em !important;
+  }
   #prog-first h2 {
     font-size: 2em;
   }

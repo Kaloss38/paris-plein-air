@@ -1,6 +1,15 @@
 #prog-first{
     background-color: $secondary-color;
     padding-bottom: 2em;
+    :first-child{
+        h1{
+            font-size: 7em;
+            padding-top: 0.50em;
+        }
+        h2{
+            padding-top: 1.50em;
+        }
+    }
     h1{
         color: white;
         padding-top: 1em;
@@ -71,6 +80,12 @@
 }
 
 @media all and (max-width: 992px){
+    #prog-first{ 
+        :first-child{
+            font-size: 5em;
+        }    
+    }
+    
     #prog-container{
         img{
             height: 18em;
@@ -95,6 +110,11 @@
         }
     }
     #prog-first{
+        :first-child{
+            h1{
+                font-size: 2em !important;
+            }
+        } 
         h2{
             font-size: 2em;
         }
