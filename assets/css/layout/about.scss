@@ -8,6 +8,16 @@ body{
     figure{
         padding: 0;
     }
+    label{
+        font-family: 'Ms-ExtraBold';
+        color: black;
+    }
+    .filled-in{
+        background-color: #DB5A21;
+    }
+    input{
+        border-bottom: 1px solid $primary-color;
+    }
     .valign-wrapper{
         border-top: 8px solid #DB5A21;
         border-bottom: 8px solid #DB5A21;
@@ -56,6 +66,8 @@ body{
   @media all and (max-width: 600px)
   {
     #about-section{
+        padding: 0;
+        padding-bottom: 2em;
         h2{
             font-size: 1.90em;
         }

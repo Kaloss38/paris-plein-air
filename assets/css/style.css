@@ -144,6 +144,16 @@ body {
 #about-section figure {
   padding: 0;
 }
+#about-section label {
+  font-family: "Ms-ExtraBold";
+  color: black;
+}
+#about-section .filled-in {
+  background-color: #DB5A21;
+}
+#about-section input {
+  border-bottom: 1px solid #DB5A21;
+}
 #about-section .valign-wrapper {
   border-top: 8px solid #DB5A21;
   border-bottom: 8px solid #DB5A21;
@@ -187,6 +197,10 @@ body {
 
 /* MEDIA QUERIES */
 @media all and (max-width: 600px) {
+  #about-section {
+    padding: 0;
+    padding-bottom: 2em;
+  }
   #about-section h2 {
     font-size: 1.9em;
   }
@@ -275,9 +289,6 @@ body {
   }
 }
 @media all and (max-width: 600px) {
-  #prog-container {
-    display: block !important;
-  }
   #prog-container h1 {
     font-size: 1em;
   }

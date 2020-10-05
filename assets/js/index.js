@@ -16,7 +16,9 @@ $(document).ready(function(){
     //Mobile Colapse Nav
     $('.sidenav').sidenav();
 
-    $('.parallax').parallax();
+    $('select').formSelect();
+
+    $('input#input_text, #textarea2').characterCounter();
 });
   
  
