@@ -246,7 +246,12 @@ body {
 
 @media all and (max-width: 600px) {
   #img-fixed-article {
-    height: auto;
+    height: 100%;
+  }
+}
+@media all and (max-width: 992px) {
+  #img-fixed-article {
+    height: 100%;
   }
 }
 body {
