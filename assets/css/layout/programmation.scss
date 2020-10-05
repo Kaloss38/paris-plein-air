@@ -18,10 +18,16 @@
         text-align: center;
     }
     #prog-container{
+        display: flex;
         padding-bottom: 1em;
         padding-top: 2em;
         border-top: 8px solid #DB5A21;
         border-bottom: 8px solid #DB5A21;
+        .card{
+            margin-left:5em;
+            padding: 0;
+            text-align: center;
+        }
     }
 }
 
@@ -33,10 +39,28 @@
     }
 }
 
+.remove-mt{
+    padding-top: 1em;
+    margin-top: 0;
+}
 @media all and (max-width: 1435px){
     #prog-container{
         img{
             height: 20em;
+        }
+        .card{
+            margin-left: 5em !important;
+        }
+    }
+}
+
+@media all and (max-width: 1200px){
+    #prog-container{
+        img{
+            height: 20em;
+        }
+        .card{
+            margin-left: 0 !important;
         }
     }
 }
@@ -61,9 +85,13 @@
 
 @media all and (max-width: 600px){
     #prog-container{
+        display: block !important;
         img{
             width: 100%;
             height: auto;
+        }
+        .card{
+            margin-left: 0 !important;
         }
     }
 }
