@@ -7,6 +7,7 @@
             padding-top: 0.50em;
         }
         h2{
+            color: $primary-color;
             padding-top: 1.50em;
         }
     }
@@ -44,6 +45,12 @@
 }
 
 .container-orange{
+    #prog-first{
+        h2{
+            color: white;
+        }
+    }
+
     background-color: $primary-color !important;
     #prog-container{
         border-top: 8px solid white !important;
@@ -80,11 +87,6 @@
 }
 
 @media all and (max-width: 992px){
-    #prog-first{ 
-        :first-child{
-            font-size: 5em;
-        }    
-    }
     
     #prog-container{
         img{

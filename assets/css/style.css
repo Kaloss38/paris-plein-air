@@ -228,6 +228,7 @@ body {
   padding-top: 0.5em;
 }
 #prog-first :first-child h2 {
+  color: #DB5A21;
   padding-top: 1.5em;
 }
 #prog-first h1 {
@@ -265,6 +266,9 @@ body {
 .container-orange {
   background-color: #DB5A21 !important;
 }
+.container-orange #prog-first h2 {
+  color: white;
+}
 .container-orange #prog-container {
   border-top: 8px solid white !important;
   border-bottom: 8px solid white !important;
@@ -291,10 +295,6 @@ body {
   }
 }
 @media all and (max-width: 992px) {
-  #prog-first :first-child {
-    font-size: 5em;
-  }
-
   #prog-container img {
     height: 18em;
   }
