@@ -1,0 +1,4 @@
+.checkbox-color[type="checkbox"].filled-in:checked + span:after{
+    border: 1px solid $primary-color;
+    background-color: $primary-color;
+}

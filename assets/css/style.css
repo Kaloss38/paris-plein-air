@@ -318,6 +318,16 @@ body {
     font-size: 2em;
   }
 }
+.checkbox-color[type=checkbox].filled-in:checked + span:after {
+  border: 1px solid #DB5A21;
+  background-color: #DB5A21;
+}
+
+.checkbox-color[type=checkbox].filled-in:checked + span:after {
+  border: 1px solid #DB5A21;
+  background-color: #DB5A21;
+}
+
 #img-fixed-article {
   height: 260px;
   position: relative;
