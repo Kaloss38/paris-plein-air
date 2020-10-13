@@ -97,7 +97,7 @@ header img {
   padding-bottom: 10vh;
 }
 #news-section .card-image {
-  height: 15em;
+  max-height: 15em;
   overflow: hidden;
   position: relative;
 }
@@ -117,6 +117,11 @@ header img {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1024px) {
+  #news-section .card-image {
+    max-height: 400px;
+  }
+}
 @media all and (max-width: 600px) {
   header {
     width: 100%;
@@ -231,6 +236,9 @@ body {
   color: #DB5A21;
   padding-top: 1.5em;
 }
+#prog-first .white-title {
+  color: white !important;
+}
 #prog-first h1 {
   color: white;
   padding-top: 1em;
@@ -290,6 +298,10 @@ body {
   }
 }
 @media all and (max-width: 1024px) {
+  #prog-first :first-child h1 {
+    font-size: 4.5em !important;
+  }
+
   #prog-container img {
     height: 18em;
   }
@@ -297,6 +309,10 @@ body {
 @media all and (max-width: 992px) {
   #prog-container img {
     height: 18em;
+  }
+
+  #prog-first :first-child h1 {
+    font-size: 5em !important;
   }
 }
 @media all and (max-width: 600px) {
@@ -312,7 +328,7 @@ body {
   }
 
   #prog-first :first-child h1 {
-    font-size: 2em !important;
+    font-size: 3em !important;
   }
   #prog-first h2 {
     font-size: 2em;
@@ -328,6 +344,20 @@ body {
   background-color: #DB5A21;
 }
 
+textarea.materialize-textarea {
+  border-bottom: 1px solid #DB5A21;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+
+@media all and (max-width: 992px) {
+  .form-section .valign-wrapper {
+    display: block !important;
+  }
+}
 #img-fixed-article {
   height: 260px;
   position: relative;

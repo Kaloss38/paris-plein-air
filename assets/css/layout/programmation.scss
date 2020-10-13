@@ -11,6 +11,9 @@
             padding-top: 1.50em;
         }
     }
+    .white-title{
+        color: white !important;
+    }
     h1{
         color: white;
         padding-top: 1em;
@@ -79,6 +82,13 @@
 }
 
 @media all and (max-width: 1024px){
+    #prog-first{
+        :first-child{
+            h1{
+                font-size: 4.5em !important;
+            }
+        }
+    }
     #prog-container{
         img{
             height: 18em;
@@ -91,6 +101,13 @@
     #prog-container{
         img{
             height: 18em;
+        }
+    }
+    #prog-first{
+        :first-child{
+            h1{
+                font-size: 5em !important;
+            }
         }
     }
 }
@@ -114,7 +131,7 @@
     #prog-first{
         :first-child{
             h1{
-                font-size: 2em !important;
+                font-size: 3em !important;
             }
         } 
         h2{
