@@ -97,7 +97,7 @@ header img {
   padding-bottom: 10vh;
 }
 #news-section .card-image {
-  max-height: 11em;
+  height: 11em;
   overflow: hidden;
   position: relative;
 }
@@ -119,7 +119,7 @@ header img {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1024px) {
   #news-section .card-image {
-    max-height: 400px;
+    max-height: 11em;
   }
 }
 @media all and (max-width: 600px) {
