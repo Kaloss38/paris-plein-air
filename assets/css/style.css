@@ -180,6 +180,9 @@ body {
 #about-section img {
   width: 100%;
 }
+#about-section .btn:hover {
+  background-color: #ac4a1f;
+}
 
 #staff-section {
   padding: 5em;
@@ -269,6 +272,9 @@ body {
 #prog-first #prog-container .card {
   padding: 0;
   text-align: center;
+}
+#prog-first .btn:hover {
+  background-color: #ac4a1f;
 }
 
 .container-orange {
@@ -391,6 +397,9 @@ textarea.materialize-textarea:focus:not([readonly]) {
 #article-section a {
   display: flex;
 }
+#article-section .btn:hover {
+  background-color: #ac4a1f;
+}
 #article-section p {
   font-family: "Ms-Regular";
   color: white;
@@ -400,6 +409,21 @@ textarea.materialize-textarea:focus:not([readonly]) {
 @media all and (max-width: 600px) {
   #img-fixed-article {
     height: 100%;
+  }
+}
+@media all and (max-width: 450px) {
+  #img-fixed-article {
+    height: 100%;
+  }
+
+  .left-button {
+    margin-top: 15px;
+    float: none !important;
+  }
+
+  .right-button {
+    margin-top: 15px;
+    float: none !important;
   }
 }
 @media all and (max-width: 992px) {
