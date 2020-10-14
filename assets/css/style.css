@@ -118,8 +118,8 @@ header img {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1024px) {
-  #news-section .card-image {
-    max-height: 11em;
+  #news-section .card-title {
+    font-size: 16px;
   }
 }
 @media all and (max-width: 600px) {
